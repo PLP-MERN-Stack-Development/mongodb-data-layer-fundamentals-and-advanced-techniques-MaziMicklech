@@ -3,8 +3,7 @@
 const { MongoClient } = require('mongodb');
 
 // ✅ Your Atlas connection string
-const uri = 'mongodb+srv://Mern-stackDb:Micklech2@cluster0.lnfzruf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-
+const uri = 'MONGODBATLAS_URI_HERE';
 // Database and collection names
 const dbName = 'plp_bookstore';
 const collectionName = 'books';
